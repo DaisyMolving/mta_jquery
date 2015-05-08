@@ -31,10 +31,10 @@ function menu() {
 
 function getUserInput() {
   var originStop = $('.result').on('click', function(){
-   ($('.start'));
+   ($('.start').val());
  });
   var destinationStop = $('.result').on('click', function(){
-   ($('.finish'));
+   ($('.finish').val());
    console.log(getUserInput);
   return {startTrain: startTrain, 
           firstStop: firstStop,
