@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+
+.start {
+    float: left;
+    display: inline-block;
+    height: -20px;
+    text-align: 30%; 
+  }
+#new-itemStart {
+    float: left;
+    display: inline-block;
+    height: -20px;
+    text-align: 30%; 
+}
+
+.finish {
+  float: right;
+  display: inline-block;
+    height: -20px;
+    text-align: 60%; 
+}
+#new-itemFinish {
+  float: right;
+  display: inline-block;
+    height: -20px;
+    text-align: 60%;
+}
+
+
+img {
+  position: relative;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+
+.resultPanel {
+  position: relative;
+  top: 470px;
+} 
